@@ -1,0 +1,45 @@
+---
+title: Gitoza at a glance
+status: published
+tags:
+  - handbook
+  - overview
+---
+
+# Gitoza at a glance
+
+Gitoza is a desktop app for **test management in Git**. Your tickets, wiki, test cases, and runs are ordinary files in the repository — editable in Gitoza or in your IDE.
+
+## Product map
+
+```mermaid
+flowchart LR
+  subgraph planning [Planning]
+    Tickets
+    Releases
+    Wiki
+  end
+  subgraph testing [Testing]
+    Dashboard
+    Repository
+    TestRun
+    Automation
+  end
+  Tickets --> Repository
+  Wiki --> Tickets
+  Releases --> Tickets
+  Repository --> TestRun
+```
+
+## Sidebar areas
+
+| Group | Views | Purpose |
+|-------|-------|---------|
+| **Planning** | Tickets, Releases, Library | Track work, plan releases, write docs |
+| **Testing** | Dashboard, Test Repository, Test Run, Test Automation | Manage cases, execute runs, view CI results |
+
+## File-is-truth
+
+What you see in Gitoza is stored under `.gitoza/` in your repo. Edits in the app write YAML files; Git history keeps the audit trail.
+
+Continue: [[wiki:W-HBK010|Tickets overview]] · [[GITO-PZWZHT|Handbook welcome ticket]]

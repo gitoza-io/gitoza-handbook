@@ -1,0 +1,29 @@
+---
+title: Welcome to the Gitoza Handbook
+status: published
+tags:
+  - handbook
+  - getting-started
+---
+
+# Welcome to the Gitoza Handbook
+
+This repository is a **living guide** to Gitoza. Everything you read here lives as real files in Git — the same way your team would store tickets, wiki pages, test cases, and runs.
+
+## What you will learn
+
+- How to connect this handbook repo in Gitoza
+- How **Tickets**, **Library** (wiki), **Test Repository**, and **Test Runs** fit together
+- How linking works between tickets, cases, and runs
+
+## Suggested first steps
+
+1. Open **Library** and browse the folders in the sidebar tree.
+2. Open **Tickets** → project **Gitoza_handbook** → ticket [[GITO-PZWZHT|Welcome — start here]].
+3. Open **Test Repository** → project **handbook.gitoza.test**.
+
+## Keep your own copy
+
+This upstream repo is **read-only** for learners. Fork it on GitHub if you want to edit and sync your own handbook.
+
+See also: [[wiki:W-HBK002|Connect a repository]] · [[wiki:W-HBK000|Gitoza at a glance]]

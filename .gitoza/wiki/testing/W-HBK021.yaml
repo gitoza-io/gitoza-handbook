@@ -1,0 +1,30 @@
+---
+title: Test Runs
+status: published
+tags:
+  - handbook
+  - testing
+---
+
+# Test Runs
+
+A **test run** is a session where you execute selected cases and record **Passed**, **Failed**, or **Skipped** for each one.
+
+## Handbook sample run
+
+1. Click **Test Run** in the sidebar.
+2. Open **Handbook smoke run**.
+3. Expand cases in the tree and review their results.
+
+This run includes two handbook cases — one passed and one failed — so you can see how results appear in the UI.
+
+## Creating your own run
+
+1. In **Test Run**, create a new run.
+2. Add cases from the repository.
+3. Mark results as you execute tests.
+4. Use **Sync** when you are ready to share with the team.
+
+Runs can also link to tickets via **Covers** (requirement ids on the run). See [[GITO-LINK01|Tested by and Covered by runs]].
+
+Next: [[wiki:W-HBK022|Linking tickets and test cases]]

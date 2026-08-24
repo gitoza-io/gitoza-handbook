@@ -1,0 +1,43 @@
+---
+title: Tested by and Covered by runs
+type: bug
+status: in_testing
+priority: high
+tags:
+  - handbook
+  - linking
+reporter: Gitoza Handbook
+---
+
+# Tested by and Covered by runs
+
+This ticket shows **reverse links** from test artifacts back to planning work.
+
+## Tested by (cases)
+
+Test cases list this ticket id in **Requirement IDs**. Open this ticket detail — section **Tested by** should include:
+
+- **hb-checkout-smoke** (Checkout smoke test)
+
+Case **hb-verify-login** links to [[GITO-BUG001]] instead — compare the two tickets.
+
+## Covered by runs
+
+Test runs can list ticket ids under **Covers**. Open **Test Run** → **Handbook smoke run** — it covers this ticket.
+
+On this ticket detail, check **Covered by runs**.
+
+## Why link?
+
+Linking connects *what you plan* (tickets) with *what you verify* (cases and runs) without duplicating ids in ticket YAML.
+
+See: [[wiki:W-HBK022|Linking tickets and test cases]]
+
+```mermaid
+flowchart LR
+  ticket[GITO-LINK01 ticket]
+  case[hb-checkout-smoke case]
+  run[Handbook smoke run]
+  case -->|requirement_ids| ticket
+  run -->|Covers| ticket
+```

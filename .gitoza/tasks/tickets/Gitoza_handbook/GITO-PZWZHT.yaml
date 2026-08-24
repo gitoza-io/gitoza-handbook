@@ -1,0 +1,67 @@
+---
+title: Welcome — start here
+type: task
+status: open
+priority: high
+tags:
+  - handbook
+  - getting-started
+reporter: Gitoza Handbook
+release: Gitoza_handbook/1.1.4
+---
+
+# Welcome — start here
+
+This ticket is the **table of contents** for the Gitoza Handbook project. Use it as a map while you explore the app.
+
+## What this handbook covers
+
+- **Library** (wiki) — guided pages under `.gitoza/wiki/`
+- **Tickets** — examples of types, tags, parents, and linking
+- **Test Repository** — sample cases in project `handbook.gitoza.test`
+- **Test Run** — one completed smoke run with mixed results
+
+## Suggested reading order
+
+```mermaid
+flowchart TD
+  start[Start here]
+  lib[Library getting-started]
+  types[Ticket type examples]
+  features[Feature tickets tags parent linking]
+  cases[Test Repository cases]
+  run[Test Run smoke run]
+  sync[Library sync page]
+  start --> lib
+  lib --> types
+  types --> features
+  features --> cases
+  cases --> run
+  run --> sync
+```
+
+## Quick links
+
+- [[wiki:W-HBK001|Welcome to the Gitoza Handbook]]
+- [[wiki:W-HBK000|Gitoza at a glance]]
+- [[wiki:W-HBK011|Ticket types]]
+- [[wiki:W-HBK040|Sync and Confirm Changes]]
+
+## Type examples
+
+| Type | Ticket |
+|------|--------|
+| bug | [[GITO-BUG001]] |
+| story | [[GITO-STOR01]] |
+| task | [[GITO-TASK01]] |
+| spike | [[GITO-SPIKE1]] |
+
+## Feature walkthroughs
+
+- [[GITO-TAGS01|Using tags on tickets]]
+- [[GITO-PARNT1|Parent tickets]] → child [[GITO-CHLD01]]
+- [[GITO-LINK01|Tested by and Covered by runs]]
+
+## Keep your own copy
+
+This upstream handbook is **read-only**. Fork the repo on GitHub to edit and sync your own version.

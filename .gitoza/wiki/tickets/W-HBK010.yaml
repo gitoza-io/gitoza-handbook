@@ -1,0 +1,37 @@
+---
+title: Tickets overview
+status: published
+tags:
+  - handbook
+  - tickets
+---
+
+# Tickets overview
+
+**Tickets** track bugs, stories, tasks, and spikes alongside your test work. Each ticket is one YAML file under `.gitoza/tasks/tickets/{project}/`.
+
+## Open Tickets in Gitoza
+
+1. Click **Tickets** in the sidebar.
+2. Expand project **Gitoza_handbook**.
+3. Select a ticket to read or edit it.
+
+## Fields at a glance
+
+| Field | Meaning |
+|-------|---------|
+| **Type** | bug, story, task, or spike |
+| **Status** | open, in progress, in testing, blocked, done, cancelled |
+| **Priority** | low, medium, high, … |
+| **Tags** | Free-form labels for search |
+| **Parent** | Link to a parent ticket (child work) |
+| **Release** | Link to a release in this project |
+| **Tested by** | Test cases that reference this ticket id |
+
+## Example tickets in this handbook
+
+- [[GITO-PZWZHT|Welcome — start here]] — tour hub
+- Type examples: [[GITO-BUG001]], [[GITO-STOR01]], [[GITO-TASK01]], [[GITO-SPIKE1]]
+- Feature demos: [[GITO-TAGS01]], [[GITO-PARNT1]], [[GITO-LINK01]]
+
+Next: [[wiki:W-HBK011|Ticket types]]
