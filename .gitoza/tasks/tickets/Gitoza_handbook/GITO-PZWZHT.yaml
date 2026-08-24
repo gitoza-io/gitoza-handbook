@@ -1,13 +1,13 @@
 ---
 title: Welcome — start here
-type: task
-status: open
 priority: high
-tags:
-  - handbook
-  - getting-started
-reporter: Gitoza Handbook
 release: Gitoza_handbook/1.1.4
+reporter: Gitoza Handbook
+status: open
+tags:
+- Handbook
+- Getting-started
+type: task
 ---
 
 # Welcome — start here
@@ -49,12 +49,14 @@ flowchart TD
 
 ## Type examples
 
-| Type | Ticket |
-|------|--------|
-| bug | [[GITO-BUG001]] |
+
+| Type  | Ticket              |
+| ----- | ------------------- |
+| bug   | [[GITO-BUG001]] |
 | story | [[GITO-STOR01]] |
-| task | [[GITO-TASK01]] |
+| task  | [[GITO-TASK01]] |
 | spike | [[GITO-SPIKE1]] |
+
 
 ## Feature walkthroughs
 
