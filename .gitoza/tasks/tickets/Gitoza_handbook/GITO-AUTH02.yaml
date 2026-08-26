@@ -1,0 +1,30 @@
+---
+title: Example bug — session expires on refresh
+type: bug
+status: open
+priority: high
+tags:
+  - handbook
+  - auth
+  - regression
+reporter: Gitoza Handbook
+---
+
+# Example bug — session expires on refresh
+
+Companion auth bug for filter demos next to [[GITO-BUG001]].
+
+## When to pick type **bug**
+
+Something is broken for a user: wrong behavior, crash, or regression.
+
+## Repro sketch
+
+1. Sign in successfully.
+2. Hard-refresh the browser or desktop webview.
+3. Observe an unexpected login prompt.
+
+## Related
+
+- Case: will appear under **Tested by** when linked from `hb-auth-regression-001`
+- Wiki: [[wiki:W-HBK011|Ticket types]]

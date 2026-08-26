@@ -10,9 +10,9 @@ This release tracks the **Gitoza Handbook** content shipped in this repository.
 
 ## Scope
 
-- Library wiki pages (getting started, overview, tickets, testing, sync)
-- Ticket examples (types, tags, parent/child, linking)
-- Sample test cases and one smoke test run
+- Library wiki folders `01-overview` … `06-authoring`
+- Ticket examples (types, tags, parent/child, linking, search, releases, editor)
+- Sample test cases (add your own test runs as needed)
 
 ## Start here
 
@@ -22,6 +22,7 @@ This release tracks the **Gitoza Handbook** content shipped in this repository.
 
 - [[GITO-PZWZHT|Welcome hub]]
 - [[GITO-TASK01|Update handbook task]]
+- [[GITO-REL01|Working with releases]]
 
 ## Learn more
 

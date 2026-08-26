@@ -24,16 +24,22 @@ requirement_ids:
 ---
 ```
 
-Open [[GITO-BUG001]] and case **hb-verify-login** to see this link live.
+Open [[GITO-BUG001]] and case **hb-verify-login** (suite **auth**) to see this link live. Other handbook cases link [[GITO-SRCH01]], [[GITO-WIKI01]], [[GITO-EDIT01]], and more.
 
 ## Covered by runs (run → ticket)
 
 On a **test run**, set **Covers** (requirement ids) on the run summary. The ticket shows **Covered by runs**.
 
-Open [[GITO-LINK01]] and run **Handbook smoke run** for a full example.
+Create a run (see [[wiki:W-HBK021|Test Runs]]), cover [[GITO-LINK01]], and open that ticket’s **Covered by runs** section.
 
 ## Body links
 
-In ticket or wiki Markdown bodies, link to other tickets with `[[GITO-PZWZHT]]` or to wiki pages with `[[wiki:W-HBK001|Welcome]]`.
+In ticket or wiki Markdown bodies you can write:
+
+- Ticket by id: [[GITO-PZWZHT]]
+- Wiki by id: [[wiki:W-HBK001]]
+- Labeled forms (outside tables): see [[wiki:W-HBK031|Linking syntax]]
+
+Do not put `[[id|label]]` inside a Markdown table cell — the `|` is treated as a column separator. Use a bare `[[id]]` in the cell instead.
 
 Back: [[wiki:W-HBK010|Tickets overview]]

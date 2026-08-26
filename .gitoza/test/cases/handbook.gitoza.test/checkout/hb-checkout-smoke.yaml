@@ -24,4 +24,4 @@ Order confirmation page is displayed.
 
 ## Linking demo
 
-This case links to [[GITO-LINK01]]. It is included in **Handbook smoke run** to demonstrate **Tested by** and **Covered by runs** on the same ticket.
+This case links to [[GITO-LINK01]]. After you create a test run that includes this case and sets **Covers** to `GITO-LINK01`, the ticket will show both **Tested by** and **Covered by runs**.

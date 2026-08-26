@@ -1,0 +1,24 @@
+---
+title: Backlog — polish handbook screenshots
+type: task
+status: open
+priority: low
+tags:
+  - handbook
+  - backlog
+  - documentation
+reporter: Gitoza Handbook
+parent: GITO-PZWZHT
+---
+
+# Backlog — polish handbook screenshots
+
+Low-priority backlog item for **priority** and **backlog** tag filter demos.
+
+## Ideas
+
+- [ ] Capture Library folder tree with `01`…`06` prefixes
+- [ ] Capture Tickets search chips
+- [ ] Capture Mermaid read mode on [[wiki:W-HBK030]]
+
+Parent: [[GITO-PZWZHT|Welcome — start here]]

@@ -18,7 +18,7 @@ This repository is a **living guide** to Gitoza. Everything you read here lives 
 
 ## Suggested first steps
 
-1. Open **Library** and browse the folders in the sidebar tree.
+1. Open **Library** and browse numbered folders: **01-overview** … **06-authoring**.
 2. Open **Tickets** → project **Gitoza_handbook** → ticket [[GITO-PZWZHT|Welcome — start here]].
 3. Open **Test Repository** → project **handbook.gitoza.test**.
 
@@ -26,4 +26,4 @@ This repository is a **living guide** to Gitoza. Everything you read here lives 
 
 This upstream repo is **read-only** for learners. Fork it on GitHub if you want to edit and sync your own handbook.
 
-See also: [[wiki:W-HBK002|Connect a repository]] · [[wiki:W-HBK000|Gitoza at a glance]]
+See also: [[wiki:W-HBK002|Connect a repository]] · [[wiki:W-HBK000|Gitoza at a glance]] · [[wiki:W-HBK004|App layout and navigation]]

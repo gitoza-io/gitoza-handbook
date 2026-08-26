@@ -1,0 +1,40 @@
+---
+title: Test Repository
+status: published
+tags:
+  - handbook
+  - testing
+---
+
+# Test Repository
+
+The **Test Repository** is where you manage **test cases** — organized by project and suite folders.
+
+## Open the handbook cases
+
+1. Click **Test Repository** in the sidebar.
+2. Open project **handbook.gitoza.test**.
+3. Browse suites: **getting-started**, **auth**, **checkout**, **linking**, **wiki**.
+4. Select **Explore the handbook in Gitoza** (`hb-welcome-001`) under **getting-started**.
+
+## What you can do
+
+- **Edit / View** — switch modes in the case detail panel.
+- **Tags and priority** — organize and filter cases.
+- **Search** — use the search panel for tags, assignee, and more.
+- **Link tickets** — add ticket ids under **Requirement IDs** (shows as **Tested by** on the ticket).
+
+## Example cases
+
+| Suite | Case id | Links |
+|-------|---------|-------|
+| getting-started | `hb-welcome-001` | [[GITO-PZWZHT]] |
+| getting-started | `hb-open-library-001` | [[GITO-WIKI01]] |
+| auth | `hb-verify-login` | [[GITO-BUG001]] |
+| auth | `hb-auth-regression-001` | [[GITO-AUTH02]], [[GITO-BUG001]] |
+| checkout | `hb-checkout-smoke` | [[GITO-LINK01]] |
+| linking | `hb-filter-tickets-001` | [[GITO-SRCH01]] |
+| linking | `hb-wiki-link-001` | [[GITO-WIKI01]] |
+| wiki | `hb-editor-mermaid-001` | [[GITO-EDIT01]] |
+
+Next: [[wiki:W-HBK021|Test Runs]]

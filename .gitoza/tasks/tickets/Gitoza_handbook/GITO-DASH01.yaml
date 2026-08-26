@@ -1,0 +1,26 @@
+---
+title: Explore the Dashboard
+type: story
+status: open
+priority: medium
+tags:
+  - handbook
+  - dashboard
+reporter: Gitoza Handbook
+---
+
+# Explore the Dashboard
+
+The Dashboard summarizes offline metrics from the local index for this workspace.
+
+## Acceptance ideas
+
+- [ ] Open **Dashboard** and locate project **handbook.gitoza.test**
+- [ ] Compare case counts with **Test Repository**
+- [ ] After creating your own test run, confirm metrics update (Refresh if needed)
+
+## Related
+
+- [[wiki:W-HBK005|Dashboard]]
+- [[wiki:W-HBK020|Test Repository]]
+- [[wiki:W-HBK021|Test Runs]]

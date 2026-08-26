@@ -1,0 +1,42 @@
+---
+title: Ticket types
+status: published
+tags:
+  - handbook
+  - tickets
+---
+
+# Ticket types
+
+Pick a type that matches the kind of work you are tracking.
+
+| Type | When to use | Example ticket |
+|------|-------------|----------------|
+| **bug** | Something is broken | [[GITO-BUG001]] |
+| **story** | User-facing capability | [[GITO-STOR01]] |
+| **task** | Concrete work item | [[GITO-TASK01]] |
+| **spike** | Time-boxed research | [[GITO-SPIKE1]] |
+
+Open each example:
+
+- [[GITO-BUG001|Example bug — broken login redirect]]
+- [[GITO-STOR01|Example story — export test report]]
+- [[GITO-TASK01|Example task — update handbook for v1.1.4]]
+- [[GITO-SPIKE1|Example spike — evaluate CI upload path]]
+
+## Type in YAML
+
+The ticket **filename** is the ticket id (for example `GITO-BUG001.yaml`). The **type** field describes the category:
+
+```yaml
+---
+title: Example bug — broken login redirect
+type: bug
+status: open
+priority: high
+---
+```
+
+Open each example ticket in **Tickets** to see how the type shapes the description and acceptance criteria.
+
+Back: [[wiki:W-HBK010|Tickets overview]]

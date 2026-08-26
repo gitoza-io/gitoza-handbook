@@ -18,25 +18,33 @@ This repository is maintained by the Gitoza team. **Do not push** changes here. 
 
 | Area | Entry point |
 |------|-------------|
-| **Library** (Wiki) | Open **Library** → folder **getting-started** → page *Welcome to the Gitoza Handbook* (`W-HBK001`) |
+| **Library** (Wiki) | Open **Library** → folder **02-getting-started** → page *Welcome to the Gitoza Handbook* (`W-HBK001`) |
 | **Tickets** | Open **Tickets** → project **Gitoza_handbook** → ticket **Welcome — start here** (`GITO-PZWZHT`) |
-| **Test Repository** | Project **handbook.gitoza.test** → case **Explore the handbook in Gitoza** |
-| **Test Run** | Run **Handbook smoke run** |
+| **Test Repository** | Project **handbook.gitoza.test** → suites under **getting-started**, **auth**, **checkout**, **linking**, **wiki** |
+| **Test Run** | Create your own run from the handbook cases (none is pre-committed) |
 
 ## Handbook map
 
 ### Library (Wiki)
 
-- **getting-started** — Welcome, connect a repo, Playground vs handbook
-- **overview** — Gitoza at a glance (product map)
-- **tickets** — Tickets overview and ticket types
-- **testing** — Test Repository, Test Runs, linking tickets and cases
-- **sync** — Sync and Confirm Changes
+Folders are numbered so they sort in reading order:
+
+- **01-overview** — Gitoza at a glance (product map)
+- **02-getting-started** — Welcome, connect a repo, Playground vs handbook, app layout, Dashboard
+- **03-tickets** — Tickets overview, types, releases, search and filters
+- **04-testing** — Test Repository, Test Runs, linking tickets and cases
+- **05-sync** — Sync / Confirm Changes, Refresh and reindex
+- **06-authoring** — Tables, code blocks, Mermaid, linking syntax
 
 ### Tickets (project `Gitoza_handbook`)
 
 - **Welcome hub** — `GITO-PZWZHT`
 - **Type examples** — `GITO-BUG001`, `GITO-STOR01`, `GITO-TASK01`, `GITO-SPIKE1`
-- **Feature walkthroughs** — tags, parent/child, Tested by / Covered by runs
+- **Feature walkthroughs** — tags, search/filters, parent/child, releases, wiki links, editor, sync, dashboard
+- **Filter samples** — done / cancelled / in_testing / backlog / high priority tickets for search demos
+
+### Test cases (project `handbook.gitoza.test`)
+
+Suites include **getting-started**, **auth**, **checkout**, **linking**, and **wiki**. Cases set **Requirement IDs** so ticket **Tested by** lists populate. Add test runs yourself when you want execution screenshots or demos.
 
 Written for Gitoza v1.1.x. More topics: [gitoza.com/help](https://gitoza.com/help)

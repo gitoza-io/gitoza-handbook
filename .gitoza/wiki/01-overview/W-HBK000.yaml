@@ -42,4 +42,4 @@ flowchart LR
 
 What you see in Gitoza is stored under `.gitoza/` in your repo. Edits in the app write YAML files; Git history keeps the audit trail.
 
-Continue: [[wiki:W-HBK010|Tickets overview]] · [[GITO-PZWZHT|Handbook welcome ticket]]
+Continue: [[wiki:W-HBK004|App layout]] · [[wiki:W-HBK010|Tickets overview]] · [[wiki:W-HBK030|Tables, code, Mermaid]] · [[GITO-PZWZHT|Handbook welcome ticket]]

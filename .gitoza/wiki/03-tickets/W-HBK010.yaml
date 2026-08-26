@@ -32,6 +32,6 @@ tags:
 
 - [[GITO-PZWZHT|Welcome — start here]] — tour hub
 - Type examples: [[GITO-BUG001]], [[GITO-STOR01]], [[GITO-TASK01]], [[GITO-SPIKE1]]
-- Feature demos: [[GITO-TAGS01]], [[GITO-PARNT1]], [[GITO-LINK01]]
+- Feature demos: [[GITO-TAGS01]], [[GITO-PARNT1]], [[GITO-LINK01]], [[GITO-SRCH01]], [[GITO-WIKI01]]
 
-Next: [[wiki:W-HBK011|Ticket types]]
+Next: [[wiki:W-HBK011|Ticket types]] · [[wiki:W-HBK012|Releases]] · [[wiki:W-HBK013|Search and filter tickets]]
