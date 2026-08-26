@@ -1,8 +1,22 @@
-results: {}
-results_revision: 0
 run_id: R-THNQWG
+title: Handbook smoke run
+archived: false
+results:
+  .gitoza/test/cases/handbook.gitoza.test/checkout/hb-checkout-smoke.yaml:
+    executed_at: 2026-08-26T07:34:33.563573+00:00
+    executed_by: Gitoza Tester
+    result: passed
+  .gitoza/test/cases/handbook.gitoza.test/linking/hb-export-story-001.yaml:
+    executed_at: 2026-08-26T07:34:33.563712+00:00
+    executed_by: Gitoza Tester
+    result: passed
+  .gitoza/test/cases/handbook.gitoza.test/linking/hb-filter-tickets-001.yaml:
+    executed_at: 2026-08-26T07:34:33.564481+00:00
+    executed_by: Gitoza Tester
+    result: passed
+results_revision: 6
 summary:
   failed: 0
-  passed: 0
+  passed: 3
   skipped: 0
-  total: 0
+  total: 11
