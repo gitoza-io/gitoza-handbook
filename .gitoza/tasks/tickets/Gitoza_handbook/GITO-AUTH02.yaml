@@ -1,13 +1,13 @@
 ---
 title: Example bug — session expires on refresh
-type: bug
-status: open
-priority: high
-tags:
-  - handbook
-  - auth
-  - regression
+priority: medium
 reporter: Gitoza Handbook
+status: in_testing
+tags:
+- Handbook
+- Auth
+- Regression
+type: bug
 ---
 
 # Example bug — session expires on refresh
