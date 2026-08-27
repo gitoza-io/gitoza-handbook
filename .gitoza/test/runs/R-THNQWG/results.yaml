@@ -2,21 +2,53 @@ run_id: R-THNQWG
 title: Handbook smoke run
 archived: false
 results:
+  .gitoza/test/cases/handbook.gitoza.test/auth/hb-auth-regression-001.yaml:
+    executed_at: 2026-08-27T17:25:32.669639+00:00
+    executed_by: Gitoza Tester
+    result: passed
+  .gitoza/test/cases/handbook.gitoza.test/auth/hb-verify-login.yaml:
+    executed_at: 2026-08-27T16:34:47.878001+00:00
+    executed_by: Gitoza Tester
+    result: passed
   .gitoza/test/cases/handbook.gitoza.test/checkout/hb-checkout-smoke.yaml:
-    executed_at: 2026-08-26T07:34:33.563573+00:00
+    executed_at: 2026-08-27T17:25:32.670178+00:00
+    executed_by: Gitoza Tester
+    result: passed
+  .gitoza/test/cases/handbook.gitoza.test/getting-started/hb-open-library-001.yaml:
+    executed_at: 2026-08-27T17:25:32.671691+00:00
+    executed_by: Gitoza Tester
+    result: passed
+  .gitoza/test/cases/handbook.gitoza.test/getting-started/hb-sync-draft-001.yaml:
+    executed_at: 2026-08-27T17:25:32.672277+00:00
+    executed_by: Gitoza Tester
+    result: passed
+  .gitoza/test/cases/handbook.gitoza.test/getting-started/hb-welcome-001.yaml:
+    executed_at: 2026-08-27T17:25:32.672547+00:00
     executed_by: Gitoza Tester
     result: passed
   .gitoza/test/cases/handbook.gitoza.test/linking/hb-export-story-001.yaml:
-    executed_at: 2026-08-26T07:34:33.563712+00:00
+    executed_at: 2026-08-27T17:25:32.670875+00:00
     executed_by: Gitoza Tester
     result: passed
   .gitoza/test/cases/handbook.gitoza.test/linking/hb-filter-tickets-001.yaml:
-    executed_at: 2026-08-26T07:34:33.564481+00:00
+    executed_at: 2026-08-27T17:25:32.671208+00:00
     executed_by: Gitoza Tester
     result: passed
-results_revision: 6
+  .gitoza/test/cases/handbook.gitoza.test/linking/hb-release-ticket-001.yaml:
+    executed_at: 2026-08-27T17:25:32.672+00:00
+    executed_by: Gitoza Tester
+    result: passed
+  .gitoza/test/cases/handbook.gitoza.test/linking/hb-wiki-link-001.yaml:
+    executed_at: 2026-08-27T17:25:32.672828+00:00
+    executed_by: Gitoza Tester
+    result: passed
+  .gitoza/test/cases/handbook.gitoza.test/wiki/hb-editor-mermaid-001.yaml:
+    executed_at: 2026-08-27T17:25:32.670513+00:00
+    executed_by: Gitoza Tester
+    result: passed
+results_revision: 436
 summary:
   failed: 0
-  passed: 3
+  passed: 11
   skipped: 0
   total: 11
