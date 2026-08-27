@@ -3,9 +3,9 @@ title: Handbook smoke run
 archived: false
 results:
   .gitoza/test/cases/handbook.gitoza.test/auth/hb-auth-regression-001.yaml:
-    executed_at: 2026-08-27T19:33:15.024318200+00:00
+    executed_at: 2026-08-27T21:03:04.300378400+00:00
     executed_by: Tester win
-    result: passed
+    result: failed
   .gitoza/test/cases/handbook.gitoza.test/auth/hb-verify-login.yaml:
     executed_at: 2026-08-27T19:33:15.024704400+00:00
     executed_by: Tester win
@@ -47,7 +47,7 @@ results:
     executed_by: Gitoza Tester
     result: failed
 summary:
-  failed: 2
-  passed: 9
+  failed: 3
+  passed: 8
   skipped: 0
   total: 11
