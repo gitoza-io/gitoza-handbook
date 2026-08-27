@@ -27,28 +27,27 @@ results:
     executed_by: Gitoza Tester
     result: passed
   .gitoza/test/cases/handbook.gitoza.test/linking/hb-export-story-001.yaml:
-    executed_at: 2026-08-27T17:25:32.670875+00:00
+    executed_at: 2026-08-27T18:31:17.981046+00:00
     executed_by: Gitoza Tester
     result: passed
   .gitoza/test/cases/handbook.gitoza.test/linking/hb-filter-tickets-001.yaml:
-    executed_at: 2026-08-27T17:25:32.671208+00:00
+    executed_at: 2026-08-27T18:29:51.600430+00:00
     executed_by: Gitoza Tester
-    result: passed
+    result: failed
   .gitoza/test/cases/handbook.gitoza.test/linking/hb-release-ticket-001.yaml:
-    executed_at: 2026-08-27T17:25:32.672+00:00
+    executed_at: 2026-08-27T18:29:51.601177+00:00
     executed_by: Gitoza Tester
-    result: passed
+    result: failed
   .gitoza/test/cases/handbook.gitoza.test/linking/hb-wiki-link-001.yaml:
-    executed_at: 2026-08-27T17:25:32.672828+00:00
+    executed_at: 2026-08-27T18:29:51.601630+00:00
     executed_by: Gitoza Tester
-    result: passed
+    result: failed
   .gitoza/test/cases/handbook.gitoza.test/wiki/hb-editor-mermaid-001.yaml:
     executed_at: 2026-08-27T17:25:32.670513+00:00
     executed_by: Gitoza Tester
     result: passed
-results_revision: 436
 summary:
-  failed: 0
-  passed: 11
+  failed: 3
+  passed: 8
   skipped: 0
   total: 11
