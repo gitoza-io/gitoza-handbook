@@ -1,19 +1,21 @@
 ---
 title: Backlog — polish handbook screenshots
-type: task
-status: open
-priority: low
-tags:
-  - handbook
-  - backlog
-  - documentation
-reporter: Gitoza Handbook
 parent: GITO-PZWZHT
+priority: low
+reporter: Gitoza Handbook
+status: open
+tags:
+- Handbook
+- Backlog
+- Documentation
+type: task
 ---
 
 # Backlog — polish handbook screenshots
 
 Low-priority backlog item for **priority** and **backlog** tag filter demos.
+
+
 
 ## Ideas
 
