@@ -1,8 +1,8 @@
 ---
 title: Example bug — session expires on refresh
-priority: low
+priority: high
 reporter: Gitoza Handbook
-status: done
+status: open
 tags:
 - Handbook
 - Auth

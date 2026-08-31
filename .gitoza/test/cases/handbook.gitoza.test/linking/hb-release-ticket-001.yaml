@@ -1,13 +1,13 @@
 ---
 title: Release field on handbook tickets
 status: active
-priority: medium
+priority: low
 approve_status: approved
 tags:
-  - handbook
-  - releases
+- handbook
+- releases
 requirement_ids:
-  - GITO-REL01
+- GITO-REL01
 ---
 
 # Release field on handbook tickets
