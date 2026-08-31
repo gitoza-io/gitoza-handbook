@@ -18,6 +18,7 @@ This ticket shows **reverse links** from test artifacts back to planning work.
 Test cases list this ticket id in **Requirement IDs**. Open this ticket detail — section **Tested by** should include:
 
 - **hb-checkout-smoke** (Checkout smoke test) under suite **checkout**
+- Cases under suite **test-run** such as **Create a test run inline** and **Add cases with folder bulk-select and preview**
 
 Case **hb-verify-login** links to [[GITO-BUG001]] instead — compare the two tickets.
 

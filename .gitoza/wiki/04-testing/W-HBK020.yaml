@@ -14,7 +14,7 @@ The **Test Repository** is where you manage **test cases** — organized by proj
 
 1. Click **Test Repository** in the sidebar.
 2. Open project **handbook.gitoza.test**.
-3. Browse suites: **getting-started**, **auth**, **checkout**, **linking**, **wiki**.
+3. Browse suites: **getting-started**, **auth**, **checkout**, **linking**, **wiki**, **test-run**, **test-repository**.
 4. Select **Explore the handbook in Gitoza** (`hb-welcome-001`) under **getting-started**.
 
 ## What you can do
@@ -36,5 +36,13 @@ The **Test Repository** is where you manage **test cases** — organized by proj
 | linking | `hb-filter-tickets-001` | [[GITO-SRCH01]] |
 | linking | `hb-wiki-link-001` | [[GITO-WIKI01]] |
 | wiki | `hb-editor-mermaid-001` | [[GITO-EDIT01]] |
+| test-run | `hb-run-create-001` | [[GITO-LINK01]] |
+| test-run | `hb-run-add-cases-001` | [[GITO-LINK01]] |
+| test-run | `hb-run-search-add-001` | [[GITO-SRCH01]] |
+| test-run | `hb-run-pass-fail-001` | [[GITO-LINK01]] |
+| test-run | `hb-run-sync-001` | [[GITO-SYNC01]] |
+| test-repository | `hb-repo-filter-tag-001` | [[GITO-SRCH01]], [[GITO-TAGS01]] |
+| test-repository | `hb-repo-requirement-link-001` | [[GITO-LINK01]] |
+| getting-started | `hb-dashboard-metrics-001` | [[GITO-DASH01]] |
 
 Next: [[wiki:W-HBK021|Test Runs]]

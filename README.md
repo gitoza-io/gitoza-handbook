@@ -20,7 +20,7 @@ This repository is maintained by the Gitoza team. **Do not push** changes here. 
 |------|-------------|
 | **Library** (Wiki) | Open **Library** → folder **02-getting-started** → page *Welcome to the Gitoza Handbook* (`W-HBK001`) |
 | **Tickets** | Open **Tickets** → project **Gitoza_handbook** → ticket **Welcome — start here** (`GITO-PZWZHT`) |
-| **Test Repository** | Project **handbook.gitoza.test** → suites under **getting-started**, **auth**, **checkout**, **linking**, **wiki** |
+| **Test Repository** | Project **handbook.gitoza.test** → suites under **getting-started**, **auth**, **checkout**, **linking**, **wiki**, **test-run**, **test-repository** |
 | **Test Run** | Create your own run from the handbook cases (none is pre-committed) |
 
 ## Handbook map
@@ -45,6 +45,6 @@ Folders are numbered so they sort in reading order:
 
 ### Test cases (project `handbook.gitoza.test`)
 
-Suites include **getting-started**, **auth**, **checkout**, **linking**, and **wiki**. Cases set **Requirement IDs** so ticket **Tested by** lists populate. Add test runs yourself when you want execution screenshots or demos.
+Suites include **getting-started**, **auth**, **checkout**, **linking**, **wiki**, **test-run**, and **test-repository**. Cases set **Requirement IDs** so ticket **Tested by** lists populate. The **test-run** suite walks through create run → add cases (bulk-select, search, preview) → Pass/Fail → Sync. Add your own runs when you want execution screenshots or demos.
 
 Written for Gitoza v1.1.x. More topics: [gitoza.com/help](https://gitoza.com/help)

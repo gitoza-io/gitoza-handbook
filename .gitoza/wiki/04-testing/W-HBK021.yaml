@@ -15,11 +15,9 @@ A **test run** is a session where you execute selected cases and record **Passed
 This upstream handbook ships cases without a committed sample run so you can practice creating one:
 
 1. Click **Test Run** in the sidebar.
-2. Create a new run (for example **Handbook smoke run**).
-3. Add cases from **handbook.gitoza.test** (checkout + auth cases are good starters).
-4. Mark results as you execute tests.
-5. Optionally set **Covers** to ticket ids such as [[GITO-LINK01]].
-6. Use **Sync** when you are ready to share with the team (on a fork).
+2. Follow suite **test-run** in **Test Repository** — cases cover create run, bulk-add with preview, Filter cases search, Pass/Fail badges, and Sync.
+3. Or freestyle: create a run (for example **Handbook smoke**), add cases from **auth** and **checkout**, mark results, set **Covers** to [[GITO-LINK01]].
+4. Use **Sync** when you are ready to share with the team (on a fork).
 
 ## Why runs matter
 
