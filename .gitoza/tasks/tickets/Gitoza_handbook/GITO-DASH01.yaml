@@ -1,11 +1,11 @@
 ---
 title: Explore the Dashboard
 type: story
-status: open
+status: in_progress
 priority: medium
 tags:
-  - handbook
-  - dashboard
+- handbook
+- dashboard
 reporter: Gitoza Handbook
 ---
 
@@ -15,7 +15,7 @@ The Dashboard summarizes offline metrics from the local index for this workspace
 
 ## Acceptance ideas
 
-- [ ] Open **Dashboard** and locate project **handbook.gitoza.test**
+- [x] Open **Dashboard** and locate project **handbook.gitoza.test**
 - [ ] Compare case counts with **Test Repository**
 - [ ] After creating your own test run, confirm metrics update (Refresh if needed)
 
