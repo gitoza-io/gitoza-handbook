@@ -1,13 +1,13 @@
 ---
 title: Document ticket lifecycle from open to release
 type: task
-status: open
-priority: medium
+status: done
+priority: high
 tags:
-  - handbook
-  - demo
-  - ai-promo
-  - workflow
+- handbook
+- demo
+- ai-promo
+- workflow
 reporter: Gitoza Handbook
 ---
 
@@ -27,11 +27,24 @@ Explain the happy-path lifecycle of a handbook ticket so new contributors know w
 4. **done** — work accepted
 5. Optionally link a **release** (e.g. `Gitoza_handbook/1.1.4`) when shipping
 
+```mermaid
+flowchart LR
+  open[open]
+  inProgress[in_progress]
+  inTesting[in_testing]
+  done[done]
+  release[release]
+  open --> inProgress
+  inProgress --> inTesting
+  inTesting --> done
+  done -.->|optional| release
+```
+
 ## Acceptance criteria
 
-- [ ] Clear Mermaid flowchart of the status transitions
-- [ ] Short note on when to set `release:`
-- [ ] Links to [[wiki:W-HBK011|Ticket types]] and [[wiki:W-HBK012|Releases]]
+- [x] Clear Mermaid flowchart of the status transitions
+- [x] Short note on when to set `release:`
+- [x] Links to [[wiki:W-HBK011|Ticket types]] and [[wiki:W-HBK012|Releases]]
 
 ## References
 
