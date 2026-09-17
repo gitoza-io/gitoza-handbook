@@ -1,0 +1,70 @@
+---
+title: Welcome — start here
+type: task
+status: open
+priority: high
+tags:
+  - Handbook
+  - Getting-started
+reporter: Gitoza Lite
+release: Gitoza_Lite/0.1.0
+---
+
+# Welcome — start here
+
+This ticket is the **table of contents** for the Gitoza Lite in-repo handbook. Use it while you explore the extension UI.
+
+## What you get in this clone
+
+- **Extension source** — build and contribute to Gitoza Lite
+- **Wiki** — numbered folders under `.gitoza-lite/wiki/` (`01-overview` … `05-authoring`)
+- **Tickets** — types, statuses, tags, releases, AI workflow samples
+- **Test Repository** — project `gitoza.lite.handbook`
+- **Test Run** — `R-SMOKE1`
+
+## Suggested reading order
+
+```mermaid
+flowchart TD
+  start[LITE-WELCOM]
+  overview[W-LITE00]
+  gettingStarted[W-LITE01]
+  yaml[W-LITE10]
+  ai[W-LITE20]
+  cases[Test cases]
+  start --> overview
+  overview --> gettingStarted
+  gettingStarted --> yaml
+  yaml --> ai
+  ai --> cases
+```
+
+## Quick links — Wiki
+
+| Page | Id |
+|------|-----|
+| Gitoza Lite at a glance | W-LITE00 |
+| Welcome — open this handbook | W-LITE01 |
+| Install and open | W-LITE02 |
+| Activity Bar modules | W-LITE03 |
+| Ticket and wiki YAML | W-LITE10 |
+| Cases and runs YAML | W-LITE11 |
+| AI-assisted workflow | W-LITE20 |
+
+## Type examples
+
+| Type | Ticket |
+|------|--------|
+| bug | LITE-BUG001 |
+| story | LITE-STOR01 |
+| task | LITE-TASK01 |
+| spike | LITE-SPIKE1 |
+
+## Feature walkthroughs
+
+| Topic | Ticket |
+|-------|--------|
+| Tags and search | LITE-TAGS01 |
+| Release field | LITE-REL01 |
+| Wiki from tickets | LITE-WIKI01 |
+| AI draft loop | LITE-AIDEMO |

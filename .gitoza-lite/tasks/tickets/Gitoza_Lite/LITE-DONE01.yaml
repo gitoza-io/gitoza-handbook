@@ -1,0 +1,18 @@
+---
+title: Done — publish getting-started wiki
+type: task
+status: done
+priority: medium
+tags:
+  - Example
+  - Done
+reporter: Gitoza Lite
+---
+
+# Done — publish getting-started wiki
+
+Sample ticket in **done** status for search and filter demos.
+
+## Outcome
+
+Wiki pages W-LITE01, W-LITE02, and W-LITE03 are published under `02-getting-started/`.

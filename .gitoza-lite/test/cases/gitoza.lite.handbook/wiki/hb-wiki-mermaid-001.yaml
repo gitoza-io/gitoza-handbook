@@ -1,0 +1,19 @@
+---
+title: Open authoring page with Mermaid
+tags:
+  - wiki
+  - authoring
+status: active
+priority: low
+requirement_id: LITE-REG001
+---
+
+## Steps
+
+1. Open **Wiki** → **05-authoring** → `W-LITE30`.
+2. Scroll to the Mermaid example.
+3. Optionally edit a table cell and Save.
+
+## Expected result
+
+Mermaid fence and tables are visible in the page body. After Save, the YAML on disk matches the editor.

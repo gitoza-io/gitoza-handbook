@@ -1,0 +1,16 @@
+---
+title: Handbook smoke
+---
+cases:
+  - path: .gitoza-lite/test/cases/gitoza.lite.handbook/getting-started/hb-open-lite-001.yaml
+    result: passed
+  - path: .gitoza-lite/test/cases/gitoza.lite.handbook/getting-started/hb-switch-modules-001.yaml
+    result: passed
+  - path: .gitoza-lite/test/cases/gitoza.lite.handbook/getting-started/hb-wiki-welcome-001.yaml
+    result: pending
+  - path: .gitoza-lite/test/cases/gitoza.lite.handbook/test-run/hb-run-open-smoke-001.yaml
+    result: passed
+  - path: .gitoza-lite/test/cases/gitoza.lite.handbook/test-run/hb-run-pass-fail-001.yaml
+    result: pending
+  - path: .gitoza-lite/test/cases/gitoza.lite.handbook/ai-workflow/hb-ai-draft-ticket-001.yaml
+    result: pending

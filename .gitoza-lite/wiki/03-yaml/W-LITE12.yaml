@@ -1,0 +1,28 @@
+---
+title: Filename is the id
+status: published
+tags:
+  - handbook
+  - yaml
+---
+
+# Filename is the id
+
+Gitoza Lite treats the **file stem** as the stable entity id. Renaming a file changes the id; renaming is not a separate metadata field.
+
+| Entity | Example path | Id |
+|--------|--------------|-----|
+| Ticket | `…/Gitoza_Lite/LITE-WELCOM.yaml` | `LITE-WELCOM` |
+| Wiki | `…/wiki/01-overview/W-LITE00.yaml` | `W-LITE00` |
+| Case | `…/getting-started/hb-open-lite-001.yaml` | `hb-open-lite-001` |
+| Run | `…/test/run/R-SMOKE1.yaml` | `R-SMOKE1` |
+| Release | `…/releases/0.1.0.yaml` | stem `0.1.0` → `release_id` `Gitoza_Lite/0.1.0` |
+
+## Practical tips
+
+- Prefer stable ids once others link to them (`requirement_id`, wiki references in Markdown).
+- Case ids should match `^[A-Za-z0-9][A-Za-z0-9_-]*$`.
+- Dotfiles such as `.project.yaml` are **not** tickets — they hold project settings only.
+- Keep bodies in Markdown so `git diff` stays readable for humans and AI.
+
+Next: [AI-assisted workflow](W-LITE20) · [Authoring Markdown](W-LITE30)

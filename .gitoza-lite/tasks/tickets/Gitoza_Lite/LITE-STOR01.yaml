@@ -1,0 +1,25 @@
+---
+title: Example story — export case list to CSV
+type: story
+status: open
+priority: medium
+tags:
+  - Example
+  - Backlog
+reporter: Gitoza Lite
+release: Gitoza_Lite/0.1.0
+---
+
+# Example story — export case list to CSV
+
+Sample **story** for stakeholders who want a spreadsheet of cases from the Test Repository.
+
+## Acceptance criteria
+
+- [ ] User can export the visible case list for the current project
+- [ ] CSV includes id, title, priority, tags, status, requirement_id
+- [ ] Export respects the active suite filter
+
+## Notes
+
+This is teaching content for the handbook — implement only if it becomes a real product goal.

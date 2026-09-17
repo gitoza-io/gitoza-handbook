@@ -1,0 +1,18 @@
+---
+title: Create and edit a ticket
+priority: high
+tags: [tickets]
+status: active
+requirement_id: LITE-TAGS01
+---
+
+## Steps
+
+1. Open **Tickets** → project **Gitoza_Lite**.
+2. Create a new task (or duplicate the pattern of an Example ticket).
+3. Set tags, priority, and a short Markdown body.
+4. Click **Save**.
+
+## Expected result
+
+A new `LITE-*.yaml` appears under `.gitoza-lite/tasks/tickets/Gitoza_Lite/` and `git status` shows the file. Filename stem matches the ticket id.

@@ -1,0 +1,20 @@
+---
+title: Create a wiki page and set published
+tags:
+  - wiki
+status: active
+priority: medium
+requirement_id: LITE-WIKI01
+automated: true
+---
+
+## Steps
+
+1. Open **Wiki**.
+2. Create a page under an existing folder (or `05-authoring`).
+3. Set title and `status: published`.
+4. Add a short Markdown paragraph and **Save**.
+
+## Expected result
+
+A new `W-*.yaml` appears under `.gitoza-lite/wiki/…`. Status shows as published in the UI and in front matter.

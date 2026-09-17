@@ -1,0 +1,17 @@
+---
+title: Switch between Activity Bar modules
+priority: medium
+tags: [smoke, getting-started]
+status: active
+requirement_id: LITE-WELCOM
+---
+
+## Steps
+
+1. Open Gitoza Lite.
+2. Switch to **Wiki**, then **Tickets**, then **Test Repository**, then **Test Run**, then **Releases**.
+3. Confirm each module loads without error.
+
+## Expected result
+
+All five modules are reachable. Wiki shows numbered folders; Tickets shows project **Gitoza_Lite**; Test Repository shows **gitoza.lite.handbook**.

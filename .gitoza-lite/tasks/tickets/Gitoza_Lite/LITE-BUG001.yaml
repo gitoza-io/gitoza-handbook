@@ -1,0 +1,28 @@
+---
+title: Example bug — Test Run list does not refresh
+type: bug
+status: open
+priority: high
+tags:
+  - Example
+  - Test-run
+reporter: Gitoza Lite
+---
+
+# Example bug — Test Run list does not refresh
+
+Sample **bug** ticket for filter and type demos. Not a real product defect.
+
+## Steps to reproduce
+
+1. Open **Test Run** and select `R-SMOKE1`.
+2. Mark a pending case as **Passed**.
+3. Switch to another module and back.
+
+## Expected
+
+The case result stays **passed** and matches the YAML on disk after Save.
+
+## Actual (example)
+
+Imagine the UI still shows **pending** until a full window reload — use this ticket to practice editing bug metadata.

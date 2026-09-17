@@ -1,0 +1,17 @@
+---
+title: Open Gitoza Lite on this repo
+priority: high
+tags: [smoke, getting-started]
+status: active
+requirement_id: LITE-WELCOM
+---
+
+## Steps
+
+1. Open the `gitoza-lite` repository folder in VS Code.
+2. Run **Gitoza: Open** (or click the Gitoza Lite Activity Bar icon).
+3. Confirm the Gitoza Lite tab shows the left module rail.
+
+## Expected result
+
+Gitoza Lite opens without an empty-state blocker; handbook content is available under Tickets, Wiki, and Test Repository.

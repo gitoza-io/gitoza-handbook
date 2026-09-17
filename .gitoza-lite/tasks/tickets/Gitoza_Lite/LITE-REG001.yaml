@@ -1,0 +1,22 @@
+---
+title: Example bug — case preview truncates Mermaid
+type: bug
+status: in_testing
+priority: medium
+tags:
+  - Example
+  - Wiki
+reporter: Gitoza Lite
+---
+
+# Example bug — case preview truncates Mermaid
+
+Sample ticket in **in_testing** status. Use with cases that set `requirement_id: LITE-REG001`.
+
+## Summary
+
+Long Mermaid blocks in a case body appear cut off in a narrow preview pane.
+
+## Verification idea
+
+Open case `hb-wiki-mermaid-001`, confirm the diagram renders or scrolls fully after Save.

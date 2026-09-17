@@ -1,0 +1,31 @@
+---
+title: Activity Bar modules
+status: published
+tags:
+  - handbook
+  - getting-started
+---
+
+# Activity Bar modules
+
+After **Gitoza: Open**, the left icon rail switches between modules. Each module reads and writes YAML under `.gitoza-lite/`.
+
+| Icon / module | What you do | On disk |
+|---------------|-------------|---------|
+| **Test Repository** | Browse projects, suites, cases; create and edit cases | `.gitoza-lite/test/cases/` |
+| **Test Run** | Create a run, add cases, mark Pass / Fail / Skip | `.gitoza-lite/test/run/` |
+| **Tickets** | Project tree + ticket detail | `.gitoza-lite/tasks/tickets/` |
+| **Releases** | Project-scoped release notes and status | `…/releases/` |
+| **Wiki** | Folder tree + page detail | `.gitoza-lite/wiki/` |
+
+## Layout habits
+
+- **Tickets / Wiki** — two columns: tree on the left, detail on the right.
+- **Test Repository** — three columns: project, suite, case list + detail.
+- **Test Run** — pick a run file, then execute cases from the list.
+
+## Empty states
+
+If you open a repo without `.gitoza-lite/`, create a first project or wiki page from the empty state. This handbook already has content, so you can explore immediately.
+
+Next: [Ticket and wiki YAML](W-LITE10) · [AI-assisted workflow](W-LITE20)

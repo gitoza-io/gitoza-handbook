@@ -1,0 +1,26 @@
+---
+title: Working with releases
+type: story
+status: open
+priority: medium
+tags:
+  - Handbook
+  - Releases
+reporter: Gitoza Lite
+release: Gitoza_Lite/0.1.0
+---
+
+# Working with releases
+
+This ticket is already linked to release **Gitoza_Lite/0.1.0**.
+
+## Try this
+
+1. Open **Releases** for project **Gitoza_Lite**.
+2. Open release `0.1.0` and read the notes.
+3. Return to **Tickets** and confirm this ticket’s `release` field matches `Gitoza_Lite/0.1.0`.
+4. Optionally link another open ticket to the same release and Save.
+
+## Path reminder
+
+`.gitoza-lite/tasks/tickets/Gitoza_Lite/releases/0.1.0.yaml`

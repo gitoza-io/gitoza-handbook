@@ -1,0 +1,17 @@
+---
+title: Draft a ticket YAML with AI
+priority: high
+tags: [ai, workflow]
+status: active
+requirement_id: LITE-AIDEMO
+---
+
+## Steps
+
+1. Ask an AI assistant to create a new ticket file under `.gitoza-lite/tasks/tickets/Gitoza_Lite/` using prefix `LITE`.
+2. Ensure front matter includes `title`, `type`, `status`, and a Markdown body.
+3. Open **Tickets** and select the new ticket.
+
+## Expected result
+
+Gitoza Lite shows the drafted ticket. Invalid or Desktop-only fields are absent (`requirement_ids`, multi-file run folders, etc.).

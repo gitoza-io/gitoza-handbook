@@ -1,0 +1,49 @@
+---
+title: AI-assisted task workflow
+status: published
+tags:
+  - handbook
+  - ai
+  - workflow
+---
+
+# AI-assisted task workflow
+
+Gitoza Lite has **no built-in AI**. Instead, tickets, wiki pages, and cases are ordinary YAML files — so Cursor, Copilot, ChatGPT, or any assistant can draft them. You refine in the UI and commit with git.
+
+## Loop
+
+```mermaid
+flowchart LR
+  ask[Ask AI to draft YAML] --> file[File lands under .gitoza-lite]
+  file --> ui[Open in Gitoza Lite]
+  ui --> save[Edit + Save]
+  save --> git[git add / commit / PR]
+```
+
+## Example prompts
+
+**Ticket**
+
+> Create a bug ticket YAML under `.gitoza-lite/tasks/tickets/Gitoza_Lite/` with prefix LITE, type bug, status open, describing a flaky Test Run result refresh. Include Steps to reproduce and Expected behavior sections.
+
+**Wiki**
+
+> Add a published wiki page under `.gitoza-lite/wiki/03-yaml/` explaining the difference between Desktop `.gitoza/` and Lite `.gitoza-lite/` paths.
+
+**Case**
+
+> Add a case in suite `ai-workflow` that verifies: draft a ticket with AI, open it in Tickets, Save, and confirm the file on disk updated.
+
+## Good practices
+
+| Do | Avoid |
+|----|--------|
+| Match front-matter fields from [W-LITE10](W-LITE10) / [W-LITE11](W-LITE11) | Inventing Desktop-only fields (`requirement_ids`, multi-file run folders) |
+| Use a unique filename stem as the id | Overwriting handbook demo ids you still need |
+| Open the file in Gitoza Lite and **Save** after polish | Assuming chat output is committed |
+| Review the diff in source control | Committing secrets or machine-local paths |
+
+See ticket [LITE-AIDEMO](LITE-AIDEMO) and case suite **ai-workflow** for a hands-on walkthrough.
+
+Next: [Authoring Markdown](W-LITE30)

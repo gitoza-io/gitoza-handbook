@@ -1,0 +1,42 @@
+---
+title: Install and open Gitoza Lite
+status: published
+tags:
+  - handbook
+  - getting-started
+---
+
+# Install and open Gitoza Lite
+
+**Requirements:** VS Code 1.85+ and an open workspace folder.
+
+## Option A — published extension
+
+1. Install **Gitoza Lite** from the Marketplace (publisher `gitoza`).
+2. Clone this repository and open the folder in VS Code.
+3. Run **Gitoza: Open** from the Command Palette, or click the **Gitoza Lite** Activity Bar icon.
+
+The extension activates when the workspace contains `.gitoza-lite/test/cases`, `.gitoza-lite/tasks/tickets`, or `.gitoza-lite/wiki` — this handbook already has all three.
+
+## Option B — Extension Development Host
+
+From a checkout of this repo:
+
+1. `npm install` then `npm run build` (or follow `CONTRIBUTING.md` at the repo root).
+2. Press **F5** to launch the Extension Development Host.
+3. In the new window, open this same folder (or keep it open) and run **Gitoza: Open**.
+
+## Manual save
+
+Edits in the UI are **not** auto-saved. Change metadata or Markdown, then click **Save** so the YAML file on disk updates.
+
+## Desktop vs Lite paths
+
+| Product | Root folder |
+|---------|-------------|
+| Gitoza Desktop | `.gitoza/` |
+| Gitoza Lite | `.gitoza-lite/` |
+
+There is no automatic migration. This handbook uses **`.gitoza-lite/` only**.
+
+Next: [Activity Bar modules](W-LITE03)

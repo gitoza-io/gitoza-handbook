@@ -1,0 +1,17 @@
+---
+title: Link a ticket to release 0.1.0
+priority: medium
+tags: [tickets, releases]
+status: active
+requirement_id: LITE-REL01
+---
+
+## Steps
+
+1. Open ticket **LITE-REL01** (or another open ticket).
+2. Set `release` to `Gitoza_Lite/0.1.0` if not already set.
+3. Save, then open **Releases** → `0.1.0`.
+
+## Expected result
+
+The release file exists at `.gitoza-lite/tasks/tickets/Gitoza_Lite/releases/0.1.0.yaml` with `release_id: Gitoza_Lite/0.1.0`. The ticket front matter stores the same release string.

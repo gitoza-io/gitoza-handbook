@@ -1,0 +1,17 @@
+---
+title: Open seeded smoke run R-SMOKE1
+priority: high
+tags: [smoke, test-run]
+status: active
+requirement_id: LITE-BUG001
+---
+
+## Steps
+
+1. Open **Test Run**.
+2. Select run **R-SMOKE1** (Handbook smoke).
+3. Confirm the case list includes getting-started and test-run cases.
+
+## Expected result
+
+Run file `.gitoza-lite/test/run/R-SMOKE1.yaml` loads with mixed `passed` / `pending` results.

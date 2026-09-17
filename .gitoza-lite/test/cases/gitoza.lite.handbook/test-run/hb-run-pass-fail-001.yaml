@@ -1,0 +1,18 @@
+---
+title: Mark Pass Fail Skip on a run case
+priority: high
+tags: [test-run]
+status: active
+requirement_id: LITE-BUG001
+---
+
+## Steps
+
+1. Open run **R-SMOKE1**.
+2. Pick a **pending** case and mark it **Passed**.
+3. Mark another case **Failed**, then set one to **Skipped**.
+4. Save if the UI requires an explicit save for run results.
+
+## Expected result
+
+Results in `.gitoza-lite/test/run/R-SMOKE1.yaml` update to `passed` / `failed` / `skipped` for the edited paths. Reloading the run shows the same values.

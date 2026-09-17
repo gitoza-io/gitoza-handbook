@@ -1,0 +1,26 @@
+---
+title: Wiki links from tickets
+type: task
+status: open
+priority: medium
+tags:
+  - Handbook
+  - Wiki
+reporter: Gitoza Lite
+---
+
+# Wiki links from tickets
+
+Tickets and wiki pages live side by side under `.gitoza-lite/`. Reference wiki ids in Markdown so readers can jump while exploring.
+
+## Related wiki
+
+- W-LITE00 — Gitoza Lite at a glance
+- W-LITE01 — Welcome — open this handbook
+- W-LITE30 — Authoring Markdown, tables, Mermaid
+
+## Try this
+
+1. Open **Wiki** and publish a small draft under `05-authoring` (or edit W-LITE30).
+2. Mention that page id in a ticket body.
+3. Save both files and inspect `git diff`.

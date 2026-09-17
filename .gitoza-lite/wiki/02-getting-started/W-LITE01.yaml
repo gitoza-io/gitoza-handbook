@@ -1,0 +1,39 @@
+---
+title: Welcome — open this handbook
+status: published
+tags:
+  - handbook
+  - getting-started
+---
+
+# Welcome — open this handbook
+
+You are reading the **in-repo handbook** for Gitoza Lite. Clone this open-source repository and you get:
+
+1. Extension **source code** (contribute, build, package)
+2. Seeded **wiki, tickets, cases, and a smoke run** under `.gitoza-lite/`
+
+## Suggested path
+
+```mermaid
+flowchart TD
+  A[Clone gitoza-lite] --> B[Open folder in VS Code]
+  B --> C[Install or F5 Gitoza Lite]
+  C --> D[Gitoza: Open]
+  D --> E[Browse Wiki / Tickets / Tests]
+```
+
+## Entry points
+
+| Area | Start here |
+|------|------------|
+| **Wiki** | This page (`W-LITE01`) → overview [W-LITE00](W-LITE00) |
+| **Tickets** | Project **Gitoza_Lite** → [LITE-WELCOM](LITE-WELCOM) |
+| **Test Repository** | Project **gitoza.lite.handbook** → suite **getting-started** |
+| **Test Run** | Run **R-SMOKE1** (Handbook smoke) |
+
+## Next
+
+- [Install and open the extension](W-LITE02)
+- [Activity Bar modules](W-LITE03)
+- [YAML layout](W-LITE10)

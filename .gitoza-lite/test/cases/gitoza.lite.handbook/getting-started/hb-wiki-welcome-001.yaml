@@ -1,0 +1,17 @@
+---
+title: Browse welcome wiki page
+priority: medium
+tags: [getting-started, wiki]
+status: active
+requirement_id: LITE-WELCOM
+---
+
+## Steps
+
+1. Open **Wiki**.
+2. Expand folder **02-getting-started**.
+3. Open page **Welcome — open this handbook** (`W-LITE01`).
+
+## Expected result
+
+The page body describes cloning this repo for source + handbook and lists entry points for Tickets and Test Repository.

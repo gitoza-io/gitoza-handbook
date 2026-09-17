@@ -1,0 +1,25 @@
+---
+title: Example task — document VSIX packaging excludes
+type: task
+status: in_progress
+priority: medium
+tags:
+  - Example
+  - Docs
+reporter: Gitoza Lite
+release: Gitoza_Lite/0.1.0
+---
+
+# Example task — document VSIX packaging excludes
+
+Sample **task** in `in_progress` status for filter demos.
+
+## Goal
+
+Confirm `.vscodeignore` excludes `.gitoza-lite/**` so the in-repo handbook is not packaged into the published `.vsix`.
+
+## Done when
+
+- [ ] `.vscodeignore` lists `.gitoza-lite/**`
+- [ ] README mentions the handbook is repo-only demo data
+- [ ] A packaged VSIX does not contain handbook YAML

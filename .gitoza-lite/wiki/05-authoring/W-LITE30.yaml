@@ -1,0 +1,55 @@
+---
+title: Authoring Markdown, tables, Mermaid
+status: published
+tags:
+  - handbook
+  - authoring
+---
+
+# Authoring Markdown, tables, Mermaid
+
+Bodies of tickets, wiki pages, and cases are Markdown. Use the same habits you would in a README.
+
+## Tables
+
+| Type | When to use |
+|------|-------------|
+| bug | Defect to fix |
+| story | User-facing capability |
+| task | Implementation work |
+| spike | Research / time-boxed exploration |
+
+## Code fences
+
+```yaml
+---
+title: Example
+type: task
+status: open
+---
+
+Body text
+```
+
+## Mermaid
+
+```mermaid
+flowchart TD
+  draft[Draft YAML] --> refine[Refine in UI]
+  refine --> commit[Commit]
+```
+
+## Cross-references
+
+Lite stores links as plain text ids in Markdown (no special wiki protocol required for the handbook). Examples used throughout this repo:
+
+- Tickets: `LITE-WELCOM`, `LITE-BUG001`
+- Wiki: `W-LITE00`, `W-LITE20`
+- Cases: `hb-open-lite-001`
+- Runs: `R-SMOKE1`
+
+When a case verifies a ticket, set front-matter `requirement_id` to that ticket id so the relationship is structured, not only narrative.
+
+## Manual save reminder
+
+The UI editor buffers changes until you click **Save**. Unsaved edits are not on disk and will not appear in `git status`.

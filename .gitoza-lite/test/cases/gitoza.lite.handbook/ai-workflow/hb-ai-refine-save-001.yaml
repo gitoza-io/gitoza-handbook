@@ -1,0 +1,18 @@
+---
+title: Refine AI draft in UI and Save
+priority: high
+tags: [ai, workflow]
+status: active
+requirement_id: LITE-AIDEMO
+---
+
+## Steps
+
+1. Open a ticket created or edited with AI help (see `hb-ai-draft-ticket-001`).
+2. Adjust tags and body in the Gitoza Lite editor.
+3. Click **Save**.
+4. Run `git diff` on the ticket file.
+
+## Expected result
+
+Disk YAML matches the UI. The diff is readable; no auto-save occurred before the explicit Save.

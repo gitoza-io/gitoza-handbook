@@ -1,0 +1,54 @@
+---
+title: Gitoza Lite at a glance
+status: published
+tags:
+  - handbook
+  - overview
+---
+
+# Gitoza Lite at a glance
+
+Gitoza Lite is a **VS Code extension** for managing tickets, wiki pages, releases, and test cases as plain YAML + Markdown in your workspace.
+
+This repository is both the **extension source** and a **living handbook**. Open the folder in VS Code with Gitoza Lite installed (or press **F5** from a development checkout) to explore the seeded content under `.gitoza-lite/`.
+
+## Product map
+
+```mermaid
+flowchart LR
+  subgraph ide [VS Code]
+    Tickets
+    Releases
+    Wiki
+    TestRepo[Test Repository]
+    TestRun[Test Run]
+  end
+  subgraph disk [Git workspace]
+    Yaml[".gitoza-lite/ YAML files"]
+  end
+  Tickets --> Yaml
+  Releases --> Yaml
+  Wiki --> Yaml
+  TestRepo --> Yaml
+  TestRun --> Yaml
+```
+
+## Why files as truth
+
+| Idea | What it means |
+|------|----------------|
+| **Local-first** | Everything is on disk under `.gitoza-lite/` — no cloud required |
+| **Git-friendly** | Diff, review, and merge entities like any other source file |
+| **AI-friendly** | Assistants can draft or edit YAML; you refine in the UI and commit |
+
+## Modules
+
+| Module | Path | Purpose |
+|--------|------|---------|
+| **Tickets** | `.gitoza-lite/tasks/tickets/` | Track bugs, stories, tasks, spikes |
+| **Releases** | `…/{project}/releases/` | Group work for a version |
+| **Wiki** | `.gitoza-lite/wiki/` | Docs as nested folders + pages |
+| **Test Repository** | `.gitoza-lite/test/cases/` | Manual / automated case library |
+| **Test Run** | `.gitoza-lite/test/run/` | Pass / Fail / Skip execution |
+
+Continue: [W-LITE01](W-LITE01) · [W-LITE10](W-LITE10) · [LITE-WELCOM](LITE-WELCOM)

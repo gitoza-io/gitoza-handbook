@@ -1,0 +1,22 @@
+---
+release_id: Gitoza_Lite/0.1.0
+name: 0.1.0
+status: open
+---
+
+# Handbook showcase 0.1.0
+
+First in-repo handbook release for **Gitoza Lite**.
+
+## Scope
+
+- Welcome hub and type/status samples for demos
+- Wiki covering install, YAML layout, and AI workflow
+- Seeded test cases + smoke run `R-SMOKE1`
+
+## Linked tickets
+
+- LITE-WELCOM — Welcome hub
+- LITE-TASK01 — Update handbook for Lite packaging notes
+- LITE-STOR01 — Export case list story (example)
+- LITE-AIDEMO — AI draft workflow walkthrough

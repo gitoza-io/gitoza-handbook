@@ -1,0 +1,27 @@
+---
+title: Using tags on tickets
+type: task
+status: open
+priority: medium
+tags:
+  - Handbook
+  - Tags
+  - Search
+reporter: Gitoza Lite
+---
+
+# Using tags on tickets
+
+Practice filtering by tags in the Tickets module.
+
+## Try this
+
+1. Open project **Gitoza_Lite**.
+2. Note tags such as `Handbook`, `Example`, `AI`.
+3. Filter or search so only `Example` tickets remain.
+4. Clear the filter and find `Getting-started`.
+
+## Tips
+
+- Tags are a YAML array (or comma-separated string on parse).
+- Keep tag names short and reusable across tickets and cases.

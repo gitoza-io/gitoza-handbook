@@ -1,0 +1,62 @@
+---
+title: Cases and runs YAML
+status: published
+tags:
+  - handbook
+  - yaml
+  - testing
+---
+
+# Cases and runs YAML
+
+## Test cases
+
+Path: `.gitoza-lite/test/cases/{project}/[{suite}/…]/{case_id}.yaml`
+
+```yaml
+---
+title: Login with valid credentials
+priority: high
+tags: [smoke, auth]
+status: active
+requirement_id: LITE-BUG001
+assigned_to: qa
+---
+
+## Steps
+1. Open the login page
+2. Enter valid credentials
+
+## Expected result
+User is redirected to the dashboard.
+```
+
+| Field | Notes |
+|-------|--------|
+| `case_id` | filename stem (`hb-open-lite-001`) |
+| `status` | usually `active` |
+| `requirement_id` | optional ticket id this case verifies (singular in Lite) |
+| `automated` | set `true` only for automation-backed cases |
+
+Nested folders under the project are **suites** (e.g. `getting-started/`, `tickets/`).
+
+## Test runs
+
+Path: `.gitoza-lite/test/run/{run_id}.yaml` — **one file per run**
+
+```yaml
+---
+title: Sprint 42 smoke
+---
+cases:
+  - path: .gitoza-lite/test/cases/gitoza.lite.handbook/getting-started/hb-open-lite-001.yaml
+    result: passed
+  - path: .gitoza-lite/test/cases/gitoza.lite.handbook/test-run/hb-run-pass-fail-001.yaml
+    result: pending
+```
+
+Supported `result` values: `pending`, `passed`, `failed`, `skipped`.
+
+Open run **R-SMOKE1** in this repo for a seeded example.
+
+Next: [Filename is the id](W-LITE12)

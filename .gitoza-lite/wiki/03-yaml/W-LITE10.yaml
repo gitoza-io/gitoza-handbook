@@ -1,0 +1,84 @@
+---
+title: Ticket and wiki YAML
+status: published
+tags:
+  - handbook
+  - yaml
+---
+
+# Ticket and wiki YAML
+
+Every entity is a file: **YAML front matter + Markdown body**. The **filename stem is the id**.
+
+## Tickets
+
+Path: `.gitoza-lite/tasks/tickets/{project}/{PREFIX}-{id}.yaml`
+
+```yaml
+---
+title: Fix login redirect
+type: bug
+status: open
+priority: high
+tags: [auth]
+assigned_to: alice
+reporter: carol
+release: Gitoza_Lite/0.1.0
+---
+
+## Description
+…
+```
+
+| Field | Notes |
+|-------|--------|
+| `type` | `bug` \| `story` \| `task` \| `spike` |
+| `status` | `open` \| `in_progress` \| `in_testing` \| `blocked` \| `done` \| `cancelled` |
+| `priority` | free string (often `low` / `medium` / `high`) |
+| `release` | usually `{project}/{stem}` matching a release file |
+
+Project meta (whole-document YAML, not front matter):
+
+```yaml
+# .gitoza-lite/tasks/tickets/Gitoza_Lite/.project.yaml
+ticket_prefix: LITE
+```
+
+New tickets get ids like `LITE-A1B2C3` from that prefix.
+
+## Releases
+
+Path: `.gitoza-lite/tasks/tickets/{project}/releases/{stem}.yaml`
+
+```yaml
+---
+release_id: Gitoza_Lite/0.1.0
+name: 0.1.0
+status: open
+---
+
+Release notes…
+```
+
+## Wiki pages
+
+Path: `.gitoza-lite/wiki/{folders…}/W-XXXXXX.yaml`
+
+```yaml
+---
+title: Architecture overview
+tags: [handbook]
+status: published
+---
+
+Markdown body…
+```
+
+| Field | Notes |
+|-------|--------|
+| `status` | `draft` \| `published` \| `outdated` |
+| page id | filename stem (`W-LITE00`) — not stored in front matter |
+
+Folders under `wiki/` are for navigation only (this handbook uses numbered prefixes so pages sort in reading order).
+
+Next: [Cases and runs YAML](W-LITE11) · [Filename is the id](W-LITE12)

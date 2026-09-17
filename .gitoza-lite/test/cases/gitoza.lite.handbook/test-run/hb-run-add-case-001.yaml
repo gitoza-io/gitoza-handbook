@@ -1,0 +1,16 @@
+---
+title: Add a case from Test Repository into a run
+priority: medium
+tags: [test-run, repository]
+status: active
+---
+
+## Steps
+
+1. Note a case path under `.gitoza-lite/test/cases/gitoza.lite.handbook/` that is not yet in `R-SMOKE1`.
+2. Create a new run or edit `R-SMOKE1` to include that case path with `result: pending`.
+3. Open the run in **Test Run** and confirm the case appears.
+
+## Expected result
+
+The run YAML lists the case with a repo-relative `path` under `.gitoza-lite/test/cases/…` and result `pending`.

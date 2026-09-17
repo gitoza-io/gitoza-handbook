@@ -1,0 +1,33 @@
+---
+title: AI draft workflow walkthrough
+type: task
+status: open
+priority: high
+tags:
+  - Handbook
+  - AI
+reporter: Gitoza Lite
+release: Gitoza_Lite/0.1.0
+---
+
+# AI draft workflow walkthrough
+
+Demonstrate managing tasks in the IDE with help of AI — without any built-in model inside Gitoza Lite.
+
+## Workflow
+
+1. Ask Cursor / Copilot / ChatGPT to draft a ticket YAML under `.gitoza-lite/tasks/tickets/Gitoza_Lite/`.
+2. Open **Tickets**, select the new file (or refresh the tree).
+3. Polish title, type, status, and body in the UI → **Save**.
+4. `git add` the file and commit with a clear message.
+
+## Companion docs and cases
+
+- Wiki: W-LITE20
+- Cases: suite **ai-workflow** (`hb-ai-draft-ticket-001`, `hb-ai-refine-save-001`)
+
+## Acceptance (for the demo)
+
+- [ ] AI-created file uses valid front matter
+- [ ] UI Save rewrites the YAML cleanly
+- [ ] Diff is reviewable in source control
