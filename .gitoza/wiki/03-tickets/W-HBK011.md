@@ -26,7 +26,7 @@ Open each example:
 
 ## Type in YAML
 
-The ticket **filename** is the ticket id (for example `GITO-BUG001.yaml`). The **type** field describes the category:
+The ticket **filename** is the ticket id (for example `GITO-BUG001.md`). The **type** field describes the category:
 
 ```yaml
 ---

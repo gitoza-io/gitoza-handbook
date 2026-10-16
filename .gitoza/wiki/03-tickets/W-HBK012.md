@@ -9,15 +9,15 @@ tags:
 
 # Releases
 
-**Releases** group tickets for a shippable version. Each release is a YAML file under the ticket project’s `releases/` folder.
+**Releases** group tickets for a shippable version. Each release is a Markdown file under the ticket project’s `releases/` folder.
 
 ## Disk layout
 
 ```text
 .gitoza/tasks/tickets/Gitoza_handbook/
-  GITO-PZWZHT.yaml
+  GITO-PZWZHT.md
   releases/
-    1.1.4.yaml
+    1.1.4.md
 ```
 
 The release id is typically `{project}/{name}` (for example `Gitoza_handbook/1.1.4`). Tickets can set a `release:` field in frontmatter to appear on that release.

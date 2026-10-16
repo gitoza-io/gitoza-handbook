@@ -1,3 +1,4 @@
+---
 run_id: R-THNQWG
 title: Handbook smoke run
 archived: false
@@ -51,3 +52,5 @@ summary:
   passed: 8
   skipped: 1
   total: 11
+---
+

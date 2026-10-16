@@ -22,7 +22,7 @@ This ticket sets:
 release: Gitoza_handbook/1.1.4
 ```
 
-That points at `.gitoza/tasks/tickets/Gitoza_handbook/releases/1.1.4.yaml`.
+That points at `.gitoza/tasks/tickets/Gitoza_handbook/releases/1.1.4.md`.
 
 ## Try it
 

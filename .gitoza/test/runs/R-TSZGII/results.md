@@ -1,3 +1,4 @@
+---
 run_id: R-TSZGII
 title: Handbook smoke
 archived: false
@@ -51,3 +52,5 @@ summary:
   passed: 5
   skipped: 0
   total: 19
+---
+

@@ -1,3 +1,4 @@
+---
 cases:
 - file_path: .gitoza/test/cases/handbook.gitoza.test/auth/hb-auth-regression-001.yaml
   case_id: hb-auth-regression-001
@@ -118,3 +119,5 @@ cases:
   - GITO-EDIT01
   picked_at_sha: a0fe0c94781106786129631467653923d0837317
 run_id: R-THNQWG
+---
+

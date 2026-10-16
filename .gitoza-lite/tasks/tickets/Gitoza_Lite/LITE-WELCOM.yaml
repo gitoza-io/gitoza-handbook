@@ -1,11 +1,11 @@
 ---
 title: Welcome — start here
-type: task
-status: open
-priority: high
 tags:
   - Handbook
   - Getting-started
+type: task
+status: open
+priority: low
 reporter: Gitoza Lite
 release: Gitoza_Lite/0.1.0
 ---
